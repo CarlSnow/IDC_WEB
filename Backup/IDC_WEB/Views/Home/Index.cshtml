@@ -1,0 +1,172 @@
+﻿<body class="body">
+    <div class="wrap_header">
+        <div class="header clear">
+            <div class="header_left"></div>
+            <div class="header_center">恒生聚源行情数据展示</div>
+            <div class="header_right">
+                <div class=" input-group input-group-sm" style="padding-top:10px;width:300px;float:right;">
+                    <input id="search_input" type="text" class="form-control">
+                    <span class="input-group-addon">
+                        <a href=""><span id="search" class="glyphicon glyphicon-search" aria-hidden="true" onclick="Search('');return false;"></span></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap_main">
+        <div class="main clear">
+            <div class="main_left">
+                <div class="main_tree" id="main_tree">
+                    <div class="main_tree_title">
+                        <div class="left_tit">沪深股市</div>
+                    </div>
+                    <dl style="display: block;margin:0px;">
+                        <dt class="node"><a href=""><span id="SS" title="上海证券交易所（SS）" class="active" onclick="ChangeBaseData('SS'); return false;">上海证券交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="SS_ESA" onclick="ChangeBaseData('SS_ESA'); return false;">A股（ESA）</span></a></li>
+                                <li><a href=""><span id="SS_ESB" onclick="ChangeBaseData('SS_ESB'); return false;">B股（ESB）</span></a></li>
+                                <li><a href=""><span id="SS_MRI" onclick="ChangeBaseData('SS_MRI'); return false;">指数（MRI）</span></a></li>
+                                <li><a href=""><span id="SS_D" onclick="ChangeBaseData('SS_D'); return false;">债券（D）</span></a></li>
+                                <li><a href=""><span id="SS_M" onclick="ChangeBaseData('SS_M'); return false;">债券（M）</span></a></li>
+                                <li><a href=""><span id="SS_EU" onclick="ChangeBaseData('SS_EU'); return false;">开基（EU）</span></a></li>
+                                <li><a href=""><span id="SS_EM.ETF" onclick="ChangeBaseData('SS_EM.ETF'); return false;">开基ETF（EM.ETF）</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="SZ" title="深圳证券交易所（SZ）" onclick="ChangeBaseData('SZ'); return false;">深圳证券交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="SZ_ESA" onclick="ChangeBaseData('SZ_ESA'); return false;">A股（ESA）</span></a></li>
+                                <li><a href=""><span id="SZ_ESB" onclick="ChangeBaseData('SZ_ESB'); return false;">B股（ESB）</span></a></li>
+                                <li><a href=""><span id="SZ_MRI" onclick="ChangeBaseData('SZ_MRI'); return false;">指数（MRI）</span></a></li>
+                                <li><a href=""><span id="SZ_D" onclick="ChangeBaseData('SZ_D'); return false;">债券（D）</span></a></li>
+                                <li><a href=""><span id="SZ_M" onclick="ChangeBaseData('SZ_M'); return false;">债券（M）</span></a></li>
+                                <li><a href=""><span id="SZ_EU" onclick="ChangeBaseData('SZ_EU'); return false;">开基（EU）</span></a></li>
+                                <li><a href=""><span id="SZ_EM.ETF" onclick="ChangeBaseData('SZ_EM.ETF'); return false;">开基ETF（EM.ETF）</span></a></li>
+                                <li><a href=""><span id="SZ_EM.LOF" onclick="ChangeBaseData('SZ_EM.LOF'); return false;">开基LOF（EM.LOF）</span></a></li>
+                                <li><a href=""><span id="SZ_ES.SMSE" onclick="ChangeBaseData('SZ_ES.SMSE'); return false;">开基SMSE（ES.SMSE）</span></a></li>
+                                <li><a href=""><span id="SZ_ES.GEM" onclick="ChangeBaseData('SZ_ES.GEM'); return false;">A股（ES.GEM）</span></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="main_tree_title">
+                        <div class="left_tit">港股</div>
+                    </div>
+                    <dl style="display: block;margin:0px;">
+                        <dt class="node"><a href=""><span id="HK" title="香港交易所（HK）" onclick="ChangeBaseData('HK'); return false;">香港交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="HK_D" onclick="ChangeBaseData('HK_D'); return false;">港股（D）</span></a></li>
+                                <li><a href=""><span id="HK_ES" onclick="ChangeBaseData('HK_ES'); return false;">港股（ES）</span></a></li>
+                                <li><a href=""><span id="HK_R" onclick="ChangeBaseData('HK_R'); return false;">港股（R）</span></a></li>
+                                <li><a href=""><span id="HK_M" onclick="ChangeBaseData('HK_M'); return false;">基金（M）</span></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="main_tree_title">
+                        <div class="left_tit">美股</div>
+                    </div>
+                    <dl style="display: block;margin:0px;">
+                        <dt class="node"><a href=""><span title="美国证券交易所（NYSE）" id="N" onclick="ChangeBaseData('N'); return false;">美国证券交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="N_M" onclick="ChangeBaseData('N_M'); return false;">美股（M）</span></a></li>
+                                <li><a href=""><span id="N_ES" onclick="ChangeBaseData('N_ES'); return false;">美股（ES）</span></a></li>
+                                <li><a href=""><span id="N_R" onclick="ChangeBaseData('N_R'); return false;">美股（R）</span></a></li>
+                                <li><a href=""><span id="N_EUF" onclick="ChangeBaseData('N_EUF'); return false;">美股（EUF）</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span title="美国纳斯达克（NASDAQ）" id="O" onclick="ChangeBaseData('O'); return false;">美国纳斯达克</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="O_M" onclick="ChangeBaseData('O_M'); return false;">美股（M）</span></a></li>
+                                <li><a href=""><span id="O_ES" onclick="ChangeBaseData('O_ES'); return false;">美股（ES）</span></a></li>
+                                <li><a href=""><span id="O_R" onclick="ChangeBaseData('O_R'); return false;">美股（R）</span></a></li>
+                                <li><a href=""><span id="O_EUF" onclick="ChangeBaseData('O_EUF'); return false;">美股（EUF）</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span title="美股（AMES）" id="A" onclick="ChangeBaseData('A'); return false;">美股</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="A_M" onclick="ChangeBaseData('A_M'); return false;">美股（M）</span></a></li>
+                                <li><a href=""><span id="A_ES" onclick="ChangeBaseData('A_ES'); return false;">美股（ES）</span></a></li>
+                                <li><a href=""><span id="A_R" onclick="ChangeBaseData('A_R'); return false;">美股（R）</span></a></li>
+                                <li><a href=""><span id="A_EUF" onclick="ChangeBaseData('A_EUF'); return false;">美股（EUF）</span></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="main_tree_title">
+                        <div class="left_tit">国外期货</div>
+                    </div>
+                    <dl style="display: block;margin:0px;">
+                        <dt class="node"><a href=""><span id="CBOT" title="芝加哥期货交易所（CBOT）" onclick="ChangeBaseData('CBOT'); return false;">芝加哥期货交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="CBOT_F" onclick="ChangeBaseData('CBOT_F'); return false;">F</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="LME" title="伦敦金属交易所（LME）" onclick="ChangeBaseData('LME'); return false;">伦敦金属交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="LME_F" onclick="ChangeBaseData('LME_F'); return false;">F</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="NYMEX" title="纽约金属交易所（NYMEX）" onclick="ChangeBaseData('NYMEX'); return false;">纽约金属交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="NYMEX_F" onclick="ChangeBaseData('NYMEX_F'); return false;">F</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="COMEX" title="纽约商业交易所（COMEX）" onclick="ChangeBaseData('COMEX'); return false;">纽约商业交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="COMEX_F" onclick="ChangeBaseData('COMEX_F'); return false;">F</span></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="main_tree_title">
+                        <div class="left_tit">国内期货</div>
+                    </div>
+                    <dl style="display: block;margin:0px;">
+                        <dt class="node"><a href=""><span id="CCFX" title="中国金融期货交易所（CCFX）" onclick="ChangeBaseData('CCFX'); return false;">中国金融期货交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="CCFX_FFD" onclick="ChangeBaseData('CCFX_FFD'); return false;">FFD</span></a></li>
+                                <li><a href=""><span id="CCFX_FF" onclick="ChangeBaseData('CCFX_FF'); return false;">FF</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="XDCE" title="大连商品交易所（XDCE）" onclick="ChangeBaseData('XDCE'); return false;">大连商品交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="XDCE_FCA" onclick="ChangeBaseData('XDCE_FCA'); return false;">FCA</span></a></li>
+                                <li><a href=""><span id="XDCE_FCI" onclick="ChangeBaseData('XDCE_FCI'); return false;">FCI</span></a></li>
+                                <li><a href=""><span id="XDCE_FCE" onclick="ChangeBaseData('XDCE_FCE'); return false;">FCE</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="XSGE" title="上海期货交易所（XSGE）" onclick="ChangeBaseData('XSGE'); return false;">上海期货交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="XSGE_FCI" onclick="ChangeBaseData('XSGE_FCI'); return false;">FCI</span></a></li>
+                            </ul>
+                        </dd>
+                        <dt class="node"><a href=""><span id="XZCE" title="郑州商品交易所（XZCE）" onclick="ChangeBaseData('XZCE'); return false;">郑州商品交易所</span></a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href=""><span id="XZCE_M" onclick="ChangeBaseData('XZCE_M'); return false;">M</span></a></li>
+                                <li><a href=""><span id="XZCE_FCA" onclick="ChangeBaseData('XZCE_FCA'); return false;">FCA</span></a></li>
+                                <li><a href=""><span id="XZCE_FCI" onclick="ChangeBaseData('XZCE_FCI'); return false;">FCI</span></a></li>
+                                <li><a href=""><span id="XZCE_FCE" onclick="ChangeBaseData('XZCE_FCE'); return false;">FCE</span></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="main_right">
+                <div style="background: #fff;">
+                    <table id="mmg"></table>
+                    <div id="pg" style="text-align: right;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

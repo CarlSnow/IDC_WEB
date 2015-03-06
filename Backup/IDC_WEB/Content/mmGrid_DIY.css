@@ -1,0 +1,19 @@
+﻿body{
+            font-family: 'Helvetica Neue', helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+            color: #333;
+        }
+        .mmGrid, .mmPaginator
+        {
+            font-size: 12px;
+        }
+        .btnPrice {
+            display: block;
+            width: 16px;
+            height: 16px;
+            margin: 0px auto;
+            background: url(http://sandbox.runjs.cn/uploads/rs/412/rrczw3xl/botton_g1.gif) no-repeat;
+        }
+
+        .btnPrice:hover {
+            background: url(http://sandbox.runjs.cn/uploads/rs/412/rrczw3xl/botton_g2.gif) no-repeat;
+        }

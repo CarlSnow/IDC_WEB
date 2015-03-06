@@ -1,0 +1,959 @@
+﻿2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - A-Start
+2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - N-Start
+2015/03/02 13:52:39 INFO  IDC_WEB.HttpService  - HK-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - O-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - SS-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - SZ-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - XDCE-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:287；剩余线程数：13
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - LME-End；耗时:288；剩余线程数：12
+2015/03/02 13:52:40 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:288；剩余线程数：11
+2015/03/02 13:52:41 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:1190；剩余线程数：10
+2015/03/02 13:52:49 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10010
+2015/03/02 13:52:49 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:52:49 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:52:49 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:52:49 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:52:50 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:50 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:50 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:50 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:51 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:51 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:51 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:51 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:52 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:52 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:53 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:53 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:53 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:53 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:54 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:54 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:55 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:55 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:56 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:56 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:57 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:57 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:58 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:58 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:59 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:52:59 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:52:59 INFO  IDC_WEB.HttpService  - LME-End；耗时:9652；剩余线程数：13
+2015/03/02 13:52:59 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10003
+2015/03/02 13:52:59 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:52:59 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:10008；剩余线程数：13
+2015/03/02 13:53:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:01 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:01 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:03 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:03 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:03 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:03 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:03 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:03 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:04 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:04 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:04 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:04 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:04 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:14907；剩余线程数：12
+2015/03/02 13:53:05 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:05 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:05 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:15510；剩余线程数：11
+2015/03/02 13:53:07 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:07 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:08 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:08 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:08 INFO  IDC_WEB.HttpService  - LME-End；耗时:8539；剩余线程数：10
+2015/03/02 13:53:08 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:08 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:09 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:09 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:09 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:09 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:09 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10008
+2015/03/02 13:53:09 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:53:09 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:53:09 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:53:09 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:53:10 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:10 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:10 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:30075；剩余线程数：13
+2015/03/02 13:53:11 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:11 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:11 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:11 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:13 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:13 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:13 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:53:13 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:33446；剩余线程数：12
+2015/03/02 13:53:15 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:15 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:16 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:16 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:17 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:17 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:17 ERROR IDC_WEB.HttpService  - System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 179
+2015/03/02 13:53:17 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:17 INFO  IDC_WEB.HttpService  - A-End；耗时:37332；剩余线程数：11
+2015/03/02 13:53:18 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:18 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:9199；剩余线程数：10
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:9234；剩余线程数：9
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - O-End；耗时:39260；剩余线程数：8
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10004
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - O-Start
+2015/03/02 13:53:19 INFO  IDC_WEB.HttpService  - A-Start
+2015/03/02 13:53:20 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:20 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:20 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:336；剩余线程数：13
+2015/03/02 13:53:21 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:21 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:21 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:21 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:22 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:22 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:23 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:23 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:23 INFO  IDC_WEB.HttpService  - LME-End；耗时:13305；剩余线程数：12
+2015/03/02 13:53:23 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:43086；剩余线程数：11
+2015/03/02 13:53:23 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:13310；剩余线程数：10
+2015/03/02 13:53:24 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:4316；剩余线程数：9
+2015/03/02 13:53:25 INFO  IDC_WEB.HttpService  - HK-End；耗时:45322；剩余线程数：8
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:29 INFO  IDC_WEB.HttpService  - XDCE-End；耗时:49321；剩余线程数：7
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:29 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10021
+2015/03/02 13:53:29 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:53:29 INFO  IDC_WEB.HttpService  - HK-Start
+2015/03/02 13:53:29 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:29 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:29 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:10032；剩余线程数：13
+2015/03/02 13:53:30 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:30 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:59；剩余线程数：12
+2015/03/02 13:53:30 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:60；剩余线程数：11
+2015/03/02 13:53:30 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:30 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:53:30 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:10201；剩余线程数：10
+2015/03/02 13:53:30 INFO  IDC_WEB.HttpService  - N-End；耗时:50217；剩余线程数：9
+2015/03/02 13:53:30 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:30 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10002
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - XDCE-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - N-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:53:39 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:53:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:41 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:1693；剩余线程数：13
+2015/03/02 13:53:41 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:41 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:42 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:42 INFO  IDC_WEB.HttpService  - LME-End；耗时:2273；剩余线程数：12
+2015/03/02 13:53:42 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:43 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:3267；剩余线程数：11
+2015/03/02 13:53:43 INFO  IDC_WEB.HttpService  - O-End；耗时:23335；剩余线程数：10
+2015/03/02 13:53:43 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:3314；剩余线程数：9
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 179
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:44 INFO  IDC_WEB.HttpService  - A-End；耗时:24974；剩余线程数：8
+2015/03/02 13:53:46 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:46 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:47 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:47 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10000
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - O-Start
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:53:49 INFO  IDC_WEB.HttpService  - A-Start
+2015/03/02 13:53:50 INFO  IDC_WEB.HttpService  - LME-End；耗时:40；剩余线程数：13
+2015/03/02 13:53:50 INFO  IDC_WEB.HttpService  - HK-End；耗时:20421；剩余线程数：12
+2015/03/02 13:53:52 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:52 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:53 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:13336；剩余线程数：11
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:53 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:13356；剩余线程数：10
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:53 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:53 INFO  IDC_WEB.HttpService  - SZ-End；耗时:73376；剩余线程数：9
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:53:54 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:53:54 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:14487；剩余线程数：8
+2015/03/02 13:53:57 INFO  IDC_WEB.HttpService  - SS-End；耗时:77301；剩余线程数：7
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：9992
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - SZ-Start
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - SS-Start
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - HK-Start
+2015/03/02 13:53:59 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:54:00 INFO  IDC_WEB.HttpService  - LME-End；耗时:89；剩余线程数：13
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:10367；剩余线程数：12
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:00 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:10369；剩余线程数：11
+2015/03/02 13:54:00 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:10372；剩余线程数：10
+2015/03/02 13:54:00 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:54:00 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:395；剩余线程数：9
+2015/03/02 13:54:03 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:3884；剩余线程数：8
+2015/03/02 13:54:03 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:3882；剩余线程数：7
+2015/03/02 13:54:04 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:04 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:04 INFO  IDC_WEB.HttpService  - XDCE-End；耗时:24629；剩余线程数：6
+2015/03/02 13:54:07 INFO  IDC_WEB.HttpService  - N-End；耗时:27515；剩余线程数：5
+2015/03/02 13:54:09 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:09 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10000
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - N-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - XDCE-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - LME-End；耗时:46；剩余线程数：13
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:54；剩余线程数：12
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:55；剩余线程数：11
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:99；剩余线程数：10
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:126；剩余线程数：9
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:151；剩余线程数：8
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:184；剩余线程数：7
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:10 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:10 INFO  IDC_WEB.HttpService  - A-End；耗时:20697；剩余线程数：6
+2015/03/02 13:54:14 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:14 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:17 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:17 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:17 INFO  IDC_WEB.HttpService  - HK-End；耗时:17411；剩余线程数：5
+2015/03/02 13:54:19 INFO  IDC_WEB.HttpService  - O-End；耗时:29367；剩余线程数：4
+2015/03/02 13:54:19 INFO  IDC_WEB.HttpService  - XDCE-End；耗时:9412；剩余线程数：3
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：9995
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - XDCE-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - O-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - HK-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - A-Start
+2015/03/02 13:54:20 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:20 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:113；剩余线程数：13
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:175；剩余线程数：12
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - XDCE-End；耗时:293；剩余线程数：11
+2015/03/02 13:54:20 INFO  IDC_WEB.HttpService  - O-End；耗时:540；剩余线程数：10
+2015/03/02 13:54:24 INFO  IDC_WEB.HttpService  - N-End；耗时:14011；剩余线程数：9
+2015/03/02 13:54:24 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:3993；剩余线程数：7
+2015/03/02 13:54:24 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:3994；剩余线程数：7
+2015/03/02 13:54:24 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:4040；剩余线程数：6
+2015/03/02 13:54:24 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:54:24 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:4177；剩余线程数：5
+2015/03/02 13:54:25 INFO  IDC_WEB.HttpService  - A-End；耗时:5846；剩余线程数：4
+2015/03/02 13:54:26 INFO  IDC_WEB.HttpService  - SS-End；耗时:26146；剩余线程数：3
+2015/03/02 13:54:29 INFO  IDC_WEB.HttpService  - LME-End；耗时:9918；剩余线程数：2
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：9990
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - XDCE-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - SS-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - O-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - CCFX-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - N-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - A-Start
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:47；剩余线程数：13
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:53；剩余线程数：12
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:88；剩余线程数：11
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - HK-End；耗时:10173；剩余线程数：10
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - LME-End；耗时:152；剩余线程数：9
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:164；剩余线程数：8
+2015/03/02 13:54:30 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:54:30 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:200；剩余线程数：7
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - 后台数据刷新时间：10029
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - CBOT-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - LME-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - XSGE-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - NYMEX-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - XZCE-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - HK-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - COMEX-Start
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - LME-End；耗时:50；剩余线程数：13
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - COMEX-End；耗时:49；剩余线程数：12
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - NYMEX-End；耗时:53；剩余线程数：11
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - CBOT-End；耗时:175；剩余线程数：10
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - XZCE-End；耗时:213；剩余线程数：9
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.ArgumentException: Can not add Newtonsoft.Json.Linq.JValue to Newtonsoft.Json.Linq.JObject.
+   在 Newtonsoft.Json.Linq.JObject.ValidateToken(JToken o, JToken existing)
+   在 Newtonsoft.Json.Linq.JContainer.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JObject.InsertItem(Int32 index, JToken item, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.AddInternal(Int32 index, Object content, Boolean skipParentCheck)
+   在 Newtonsoft.Json.Linq.JContainer.Add(Object content)
+   在 Newtonsoft.Json.Linq.JTokenWriter.AddValue(JValue value, JsonToken token)
+   在 Newtonsoft.Json.Linq.JTokenWriter.WriteNull()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteClose(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.InternalWriteEnd(JsonContainerType container)
+   在 Newtonsoft.Json.JsonWriter.WriteEndObject()
+   在 Newtonsoft.Json.JsonWriter.WriteEnd(JsonContainerType type)
+   在 Newtonsoft.Json.JsonWriter.WriteEnd()
+   在 Newtonsoft.Json.JsonWriter.AutoCompleteAll()
+   在 Newtonsoft.Json.JsonWriter.Close()
+   在 Newtonsoft.Json.Linq.JTokenWriter.Close()
+   在 Newtonsoft.Json.JsonWriter.Dispose(Boolean disposing)
+   在 Newtonsoft.Json.JsonWriter.System.IDisposable.Dispose()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJObject(JsonReader reader)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 315
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - XSGE-End；耗时:226；剩余线程数：8
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - CCFX-End；耗时:10329；剩余线程数：7
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - XDCE-End；耗时:10448；剩余线程数：6
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 连接已关闭。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:40 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:40 INFO  IDC_WEB.HttpService  - SZ-End；耗时:40728；剩余线程数：5
+2015/03/02 13:54:41 ERROR IDC_WEB.HttpService  - System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 IDC_WEB.HttpService.InitializeJson(String url) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 172
+2015/03/02 13:54:41 ERROR IDC_WEB.HttpService  - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 IDC_WEB.HttpService.InitializeBaseRealInfoTask(SingleBaseDataObject sinleBaseDataObj) 位置 C:\CarlSnow\Project\IDC_WEB\IDC_WEB\Service\HttpService.cs:行号 316
+2015/03/02 13:54:41 INFO  IDC_WEB.HttpService  - O-End；耗时:11193；剩余线程数：4
+2015/03/02 13:54:41 INFO  IDC_WEB.HttpService  - A-End；耗时:11182；剩余线程数：3
